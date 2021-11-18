@@ -56,3 +56,12 @@ a {
 
 #main {
   padding: 50px; }
+
+  img {
+    width: 100px;
+  }
+
+  img#furs {
+    border: 4px solid pink;
+  }
+
