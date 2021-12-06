@@ -19,7 +19,13 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 body {
-  line-height: 1; }
+  
+    font-family: sans-serif;
+    color: #2a2a2a; 
+  
+    background-color: coral;
+  
+   }
 
 ol, ul {
   list-style: none; }
@@ -44,14 +50,6 @@ a img {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
-
-body {
-  font-family: sans-serif;
-  color: #2a2a2a; 
-
-  background-color: coral;
-
-}
 
 a {
   color: #0388a6; }
