@@ -47,7 +47,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   font-family: sans-serif;
-  color: #2a2a2a; }
+  color: #2a2a2a; 
+
+  background-color: coral;
+
+}
 
 a {
   color: #0388a6; }
@@ -64,11 +68,18 @@ a {
   img#furs {
     border: 4px solid pink;
   }
-  .form-centered {
-
-    position: relative;
-  	width:100%;
-  	height:10em;
-
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
   }
-
